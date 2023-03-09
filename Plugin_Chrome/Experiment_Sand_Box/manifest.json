@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Welcome",
+    "description": "Experiment Sand Box",
+
+
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+
+   
+
+    "action": {
+        "default_popup": "index.html"
+      },
+
+      "host_permissions": [
+        "https://developer.chrome.com/*"
+      ],
+
+      "permissions": [
+        "tabGroups"
+      ]
+    
+
+}
